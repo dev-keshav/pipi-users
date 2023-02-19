@@ -1,11 +1,31 @@
 .App {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h3{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-hai{
+  height: 500px;
+  width: 300px;
+  margin: 5px;
+  background-color: #a7a7f6;
+  /* text-align: center; */
+  padding-top: 0.5%;
+  border: 1px solid;
+  padding-left: 2%;
 }
+/* .qr-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.qr-code{
+  width: 25%;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
