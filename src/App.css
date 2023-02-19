@@ -3,15 +3,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: #331333; */
 }
 h3{
   text-align: center;
 }
 .card-hai{
   height: 500px;
-  width: 300px;
+  width: 280px;
   margin: 5px;
-  background-color: #a7a7f6;
+  background-color: #bdbdd0;
   /* text-align: center; */
   padding-top: 0.5%;
   border: 1px solid;

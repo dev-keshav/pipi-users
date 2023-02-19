@@ -1,24 +1,35 @@
-// import { TextField } from '@mui/material';
-import { QRCodeSVG } from 'qrcode.react';
+import { Button } from '@mui/material';
 import './App.css';
 import PaymentBox from './Components/PaymentBox';
+import QrCode from './Components/QrCode';
 
 function App() {
   return (
     <div className="App">
-      {/* <PaymentBox /> */}
-
       <div className='card-hai'>
         <h3>PiPi-Users</h3>
         <PaymentBox />
-        {/* <TextField id="standard-basic" label="Standard" variant="standard" /> */}
-        <p>User QR Code</p>
         <div className='qr-div'>
-          <QRCodeSVG className='qr-code' value='https://groobe-landing.netlify.app/' />
+          <QrCode />
         </div>
+        <Button variant="contained" color="success">Confirm</Button>
       </div>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
