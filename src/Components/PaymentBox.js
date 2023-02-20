@@ -1,5 +1,6 @@
 import './paymentBox.css';
 import React, { useState } from 'react';
+import QrCode from './QrCode';
 
 function PaymentBox() {
   const [name, setName] = useState("");
@@ -16,14 +17,19 @@ function PaymentBox() {
           onChange={(e) => setName(e.target.value)}
         />
       </label>
-      <label>User ID  <br />
+      <label>Wallet Address  <br />
         <input
           type="text"
           value={id}
           onChange={(e) => setId(e.target.value)}
         />
       </label>
-      <label>Transaction ID  <br />
+
+      <div className='qr-code-div'>
+        <QrCode />
+      </div>
+
+      <label>Balance  <br />
         <input
           type="text"
           value={transID}

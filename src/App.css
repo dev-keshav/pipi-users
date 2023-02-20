@@ -4,19 +4,22 @@
   justify-content: center;
   align-items: center;
   /* background-color: #331333; */
+  /* background-image: url('background.avif'); */
 }
 h3{
   text-align: center;
+  color: white;
 }
 .card-hai{
-  height: 500px;
+  height: 560px;
   width: 280px;
   margin: 5px;
-  background-color: #bdbdd0;
+  background-color: #16425B;
   /* text-align: center; */
   padding-top: 0.5%;
   border: 1px solid;
   padding-left: 2%;
+  border-radius: 15px;
 }
 /* .qr-div{
   display: flex;

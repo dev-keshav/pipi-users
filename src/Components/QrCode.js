@@ -1,5 +1,6 @@
 import { QRCodeSVG } from 'qrcode.react';
 import React, { useState } from 'react';
+import './qrCode.css';
 
 function QrCode() {
   const [url, setUrl] = useState("");

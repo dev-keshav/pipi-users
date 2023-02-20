@@ -1,5 +1,6 @@
 input[type=text]{
     width: 80%;
+    height: 60%;
     padding: 3px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -11,4 +12,10 @@ input[type=text]{
 
 form{
     display: grid;
+}
+label{
+    color: white;
+    font-size: small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 8%;
 }

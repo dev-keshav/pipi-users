@@ -10,7 +10,7 @@ function App() {
         <h3>PiPi-Users</h3>
         <PaymentBox />
         <div className='qr-div'>
-          <QrCode />
+          {/* <QrCode /> */}
         </div>
         <Button variant="contained" color="success">Confirm</Button>
       </div>
